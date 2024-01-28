@@ -1,5 +1,47 @@
 body {
   font-family: "Kanit";
-}
+
 
 /* Start coding here */
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container {
+position: relative;
+width: 100%;
+text-align: center;
+}
+
+.container img {
+width: 100%;
+max-width: 500px; /* ปรับขนาดรูปภาพตามต้องการ */
+height: auto;
+display: block;
+margin: 0 auto;
+}
+
+.name {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: rgba(255, 255, 255, 0.7); /* ปรับความโปร่งใสของพื้นหลัง */
+padding: 10px 20px;
+border-radius: 10px;
+font-size: 24px;
+font-weight: bold;
+}
+
+.location {
+position: absolute;
+bottom: 10px;
+left: 50%;
+transform: translateX(-50%);
+background-color: rgba(255, 255, 255, 0.7); /* ปรับความโปร่งใสของพื้นหลัง */
+padding: 5px 10px;
+border-radius: 5px;
+font-size: 16px;
+}
+  
