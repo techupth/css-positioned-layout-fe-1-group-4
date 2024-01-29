@@ -1,5 +1,49 @@
 body {
-  font-family: "Kanit";
+  font-family: Kanit;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1a;
 }
 
-/* Start coding here */
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:10px; 
+  padding :10px; 
+  background-color: rgb(246, 242, 242);
+}
+
+.header1{
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  position:relative;
+  right: 620px;
+  top: 120px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  color:azure;
+  text-shadow :2px2px black;
+
+}
+
+.header2{
+  display: flex;
+  align-items: center; 
+  height: 30px;
+  width: 50px;
+  background-color: rgb(173, 173, 173);
+  position: relative;
+  bottom: 120px;
+  right: 340px;
+  padding: 0px;
+  font-size: 20px;
+  color: aliceblue;
+
+}
