@@ -1,12 +1,12 @@
 body {
   font-family: Kanit;
-  margin: 0;
+  background-color: #1a1a1a;
 }
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin: 30%;
   background-color: #1a1a1a;
 }
 
@@ -14,36 +14,51 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius:10px; 
-  padding :10px; 
+  padding: 160px 320px;
   background-color: rgb(246, 242, 242);
-}
-
-.header1{
-  display: flex;
-  justify-content: end;
-  align-items: flex-end;
-  position:relative;
-  right: 620px;
-  top: 120px;
   border-radius: 10px;
-  padding: 10px 10px;
-  color:azure;
-  text-shadow :2px2px black;
+  height: 5px;
+  width: 5px;
+  bottom: 100px;
+  top: 100px;
+  position: absolute;
+  }
+  
 
+img{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 250px;
+  border-radius: 10px;
 }
 
-.header2{
-  display: flex;
-  align-items: center; 
-  height: 30px;
-  width: 50px;
-  background-color: rgb(173, 173, 173);
-  position: relative;
-  bottom: 120px;
-  right: 340px;
-  padding: 0px;
-  font-size: 20px;
-  color: aliceblue;
+h2{
+  background-color: grey;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: absolute;
+  top: -5px;
+  left: 530px;
+  z-index: 0;
+ 
+}
+
+h3{
+  display: block;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: azure;
+  background-color: #413e3e;
+  left: 10px;
+  right: 160px;
+  bottom: -10px;
+  z-index: 0;
+ 
 
 }
