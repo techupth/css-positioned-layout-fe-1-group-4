@@ -1,1 +1,83 @@
-/* Start coding here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: initial;
+}
+
+h1 {
+    color: black;
+    background-color: gray;
+    padding: 10px;
+}
+
+.message {
+    padding: 10px;
+    margin: 5px;
+    max-width: 200px;
+}
+
+.received1, .received2{
+   background-color: grey;
+   color: white;
+   border-radius: 10px;
+}
+
+.sent1, .sent2, .sent3 {
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.sent1, .sent3 {
+    background-color: green; 
+    color:white;
+    order: 1;
+}
+
+.sent1{
+    border-top-right-radius: 0px;
+    box-shadow: -1px 2px 0px #D4D4D4; 
+}
+
+.sent2 {
+   background-color: gray; 
+   color:white; 
+}
+
+.sent1:after {
+    content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+    left: auto;
+	right: -10px;
+    top: 62px;
+	bottom: auto;
+	border: 20px solid;
+	border-color: green
+    transparent transparent transparent;
+}
+
+
+#closeButton {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background-color: #c5c2c288;
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    left: auto;
+    bottom: auto;
+    right: 10px;
+    top: 110px;
+
+  }
+  
